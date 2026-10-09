@@ -1,0 +1,3 @@
+# Pickle Yeti — authorized ad sellers for every app that lists this site as its developer website.
+# One file for the whole studio: add a line per ad network (mediation partners later), never per game.
+google.com, pub-1885982674188982, DIRECT, f08c47fec0942fa0

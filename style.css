@@ -1,0 +1,26 @@
+:root {
+  /* Pickle Yeti: logo navy #1a1c2c, pickle greens #7cc644 / #3a6b24, fur #f4f4f4 / #b8c4d8 */
+  --bg: #f3f5fa; --ink: #1a1c2c; --dim: #5a6178; --accent: #3a7a1f; --panel: #ffffff; --line: #d3d9e6; --splash: #1a1c2c;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1a1c2c; --ink: #f4f4f4; --dim: #a3abc2; --accent: #7cc644; --panel: #23263a; --line: #34384f; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header a { color: var(--ink); text-decoration: none; }
+.logo { font-family: "Press Start 2P", monospace; font-size: 14px; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 10px; }
+.logo img, .hero { image-rendering: pixelated; }
+.hero { display: block; width: 384px; max-width: 100%; height: auto; margin: 32px 0 0; background: var(--splash); }
+nav { margin-top: 8px; font-size: 14px; }
+nav a { color: var(--dim); margin-right: 16px; }
+h1 { font-family: "Press Start 2P", monospace; font-size: 20px; line-height: 1.5; margin: 40px 0 8px; }
+h2 { font-size: 19px; margin: 32px 0 8px; }
+h3 { font-size: 16px; margin: 20px 0 4px; }
+a { color: var(--accent); }
+.dim { color: var(--dim); font-size: 14px; }
+.card { background: var(--panel); border: 2px solid var(--line); padding: 16px; margin: 16px 0; }
+.card h2 { margin-top: 0; font-family: "Press Start 2P", monospace; font-size: 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+footer { margin-top: 48px; color: var(--dim); font-size: 13px; }
